@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PipeController.cs",
+              "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PipeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PipeController.cs",
+              "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PipeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PipeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T08:21:20.613Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\BirdController.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\BirdController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BirdController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:21:41.825Z",
               "EditorCaption": ""
