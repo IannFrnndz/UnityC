@@ -1,4 +1,5 @@
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 public class BirdController : MonoBehaviour
@@ -28,6 +29,8 @@ public class BirdController : MonoBehaviour
 
     public AudioSource sFXJump;
 
+    public AudioSource sFXGame;
+
     
 
 
@@ -46,8 +49,10 @@ public class BirdController : MonoBehaviour
 
         scoreText.text = " ";
 
-        sFXGameOver = GetComponent<AudioSource>();
-        sFXJump = GetComponent<AudioSource>();
+        //sFXGameOver = GetComponent<AudioSource>();
+        //sFXJump = GetComponent<AudioSource>();
+
+        sFXGame.Play();
 
 
     }
@@ -100,6 +105,11 @@ public class BirdController : MonoBehaviour
 
     }
 
+    public void setData(int contadorFuera)
+    {
+        this.score = contadorFuera;
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Pipe" )
@@ -108,6 +118,7 @@ public class BirdController : MonoBehaviour
             Time.timeScale = 0.0f;
             PauseMenu(false);
             sFXGameOver.Play();
+            sFXGame.Stop();
         }
 
 
@@ -153,4 +164,6 @@ public class BirdController : MonoBehaviour
         Time.timeScale = 1.0f;
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
+
+    
 }
