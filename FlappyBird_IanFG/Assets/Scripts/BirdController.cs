@@ -31,13 +31,16 @@ public class BirdController : MonoBehaviour
 
     public AudioSource sFXGame;
 
-    
+    bool isPause = false;
+
+
 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1.0f;
         Debug.Log("Hola soy el Start");
 
         rb = GetComponent<Rigidbody>();
@@ -66,8 +69,10 @@ public class BirdController : MonoBehaviour
         rb.AddForce(Vector3.down * gravityForce * Time.deltaTime, ForceMode.Force);
 
 
-        if (Input.GetKeyDown(KeyCode.Space) == true || Input.GetMouseButtonDown(0)  )
+        if ((Input.GetKeyDown(KeyCode.Space) == true || Input.GetMouseButtonDown(0)  ) && isPause == false)
         {
+
+            
             rb.linearVelocity = Vector3.zero;
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             sFXJump.Play();
@@ -127,18 +132,21 @@ public class BirdController : MonoBehaviour
 
     public void PauseMenu(bool activate)
     {
+        
 
         if (activate == false)
         {
             Time.timeScale = 0.0f;
             scoreTextGO.SetActive(false);
             pauseMenuGO.SetActive(true);
+            isPause = true;
         }
         else
         {
            Time.timeScale = 1.0f;
             scoreTextGO.SetActive(true);
             pauseMenuGO.SetActive(false);
+            isPause = false;
         }
 
         //pauseMenuGO.SetActive(true);
@@ -163,6 +171,11 @@ public class BirdController : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+    }
+
+    public void MainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
     }
 
     
