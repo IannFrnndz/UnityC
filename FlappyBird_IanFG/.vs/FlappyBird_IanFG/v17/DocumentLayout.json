@@ -3,20 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CAMPUSFP\\Desktop\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\birdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\datasaver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +40,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,13 +53,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MyData.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\MyData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MyData.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\MyData.cs",
               "RelativeToolTip": "Assets\\Scripts\\MyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T09:09:55.947Z",
               "IsPinned": true
@@ -56,19 +67,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwE8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:33:09.465Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T10:03:28.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Program.cs",
+              "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Program.cs",
+              "RelativeToolTip": "..\\..\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T11:52:15.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainMenuController.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\MainMenuController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenuController.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\MainMenuController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T10:13:39.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T10:13:39.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AudioController.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\AudioController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioController.cs",
@@ -80,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Lit.shader",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader",
@@ -93,19 +143,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DataSaver.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\DataSaver.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DataSaver.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\DataSaver.cs",
               "RelativeToolTip": "Assets\\Scripts\\DataSaver.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T09:10:01.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PipeController.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PipeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PipeController.cs",
@@ -117,16 +167,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BirdController.cs",
               "DocumentMoniker": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\BirdController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BirdController.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\BirdController.cs",
               "RelativeToolTip": "Assets\\Scripts\\BirdController.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAcwEoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T13:21:41.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-27T13:21:41.825Z"
             }
           ]
         }
