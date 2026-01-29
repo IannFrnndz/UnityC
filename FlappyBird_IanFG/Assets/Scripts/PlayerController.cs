@@ -16,10 +16,12 @@ public class PlayerController : MonoBehaviour
 
     public int numSaltos = 0;
     public int maxSaltos = 2;
-    private Animator animator;
+    public Animator animatorController;
+    private Vector3 move;
+    private bool isRunning;
 
-    
-    
+
+
     bool salto;
     bool suelo;
 
@@ -36,6 +38,15 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
+        Movement();
+        Animations();
+
+
+    }
+
+    public void Movement()
+    {
+
         groundedPlayer = controller.isGrounded;
 
         if (groundedPlayer)
@@ -46,11 +57,12 @@ public class PlayerController : MonoBehaviour
         }
 
         // Read input
-        Vector2 input; 
+        Vector2 input;
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
-        Vector3 move = new Vector3(x, 0.0f, y);
+        
+        move = new Vector3(x, 0.0f, y);
 
         // normalize move vector to prevent faster diagonal movement
         move = Vector3.ClampMagnitude(move, 1.0f);
@@ -61,15 +73,25 @@ public class PlayerController : MonoBehaviour
         {
             transform.forward = move;
         }
-        
-        animator.SetBool("Salto", salto);
-        animator.SetBool("TocoSuelo", suelo);
+
+        // running speed 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            isRunning = true;
+        }
+        else
+        {
+            isRunning =false;
+        }
+
+        //animator.SetBool("Salto", salto);
+        //animator.SetBool("TocoSuelo", suelo);
 
 
         // Jump using WasPressedThisFrame()
         if (Input.GetKeyDown(KeyCode.Space) && numSaltos != 0)
         {
-            
+
             // Calculate jump velocity and -2 so that we reach the desired height with gravity pulling us down
             playerVelocity.y = Mathf.Sqrt(jumpHeight * gravityValue);
 
@@ -77,13 +99,13 @@ public class PlayerController : MonoBehaviour
             suelo = false;
             numSaltos--;
 
-            numSa
-            
+            // numSa
+
 
         }
 
-        
-        if(groundedPlayer && numSaltos ==0)
+
+        if (groundedPlayer && numSaltos == 0)
         {
             numSaltos = maxSaltos;
             salto = false;
@@ -97,14 +119,40 @@ public class PlayerController : MonoBehaviour
         Vector3 finalMove = move * playerSpeed + Vector3.up * playerVelocity.y;
         controller.Move(finalMove * Time.deltaTime);
 
-        animator.SetFloat("Velx", x);
-        animator.SetFloat("Vely", y);
+        //animator.SetFloat("Velx", x);
+        //animator.SetFloat("Vely", y);
+
+    }
+
+    public void Animations()
+    {
+        if (move != Vector3.zero)
+        {
+            animatorController.SetBool("IsWalking", true);
+        }
+        else
+        {
+            animatorController.SetBool("IsWalking", false);
+        }
 
 
+        animatorController.SetBool("IsRunning", isRunning);
+
+        /*if (move != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
+        {
+            animatorController.SetBool("isRunning", true);
+        }
+        else
+        {
+            animatorController.SetBool("isRunning", false);
+        }*/
+
+
+        
     }
     public void Start()
     {
         
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 }

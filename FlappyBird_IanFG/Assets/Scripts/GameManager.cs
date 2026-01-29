@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance = null;
 
+    int numSaltos = 0;
+
     private void Awake()
     {
         if (instance == null)
