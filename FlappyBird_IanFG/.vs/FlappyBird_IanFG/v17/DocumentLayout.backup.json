@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|c:\\users\\campusfp\\desktop\\unity\\flappybird_ianfg\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B69A7ACC-24F9-AC83-F10F-CA20A1FA1DF6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwE8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T08:33:09.465Z",
               "IsPinned": true,
@@ -86,10 +86,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T10:03:28.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T10:03:28.183Z"
             },
             {
               "$type": "Document",
@@ -101,8 +100,7 @@
               "RelativeToolTip": "..\\..\\Program.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T11:52:15.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T11:52:15.381Z"
             },
             {
               "$type": "Document",
@@ -138,8 +136,7 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader",
               "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-12-11T11:40:58.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T11:40:58.656Z"
             },
             {
               "$type": "Document",

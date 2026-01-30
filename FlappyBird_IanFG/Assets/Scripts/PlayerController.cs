@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public Animator animatorController;
     private Vector3 move;
     private bool isRunning;
+    private bool isJumping;
 
 
 
@@ -95,6 +96,8 @@ public class PlayerController : MonoBehaviour
             // Calculate jump velocity and -2 so that we reach the desired height with gravity pulling us down
             playerVelocity.y = Mathf.Sqrt(jumpHeight * gravityValue);
 
+            isJumping = true;
+
             salto = true;
             suelo = false;
             numSaltos--;
@@ -138,6 +141,8 @@ public class PlayerController : MonoBehaviour
 
         animatorController.SetBool("IsRunning", isRunning);
 
+        animatorController.SetBool("IsJumping", isJumping);
+
         /*if (move != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
         {
             animatorController.SetBool("isRunning", true);
@@ -148,7 +153,7 @@ public class PlayerController : MonoBehaviour
         }*/
 
 
-        
+
     }
     public void Start()
     {

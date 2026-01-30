@@ -72,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\CAMPUSFP\\Desktop\\Unity\\FlappyBird_IanFG\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwIsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T08:33:09.465Z",
               "IsPinned": true,
@@ -88,8 +88,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T10:03:28.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T10:03:28.183Z"
             },
             {
               "$type": "Document",
@@ -101,7 +100,8 @@
               "RelativeToolTip": "..\\..\\Program.cs",
               "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T11:52:15.381Z"
+              "WhenOpened": "2026-01-16T11:52:15.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,7 +137,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@7652a5c7e246\\Shaders\\Lit.shader",
               "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-12-11T11:40:58.656Z"
+              "WhenOpened": "2025-12-11T11:40:58.656Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
