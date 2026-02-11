@@ -13,6 +13,8 @@ public class PlayerController2D : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    public Transform respawnPoint;
+    
 
     void Start()
     {
@@ -44,4 +46,26 @@ public class PlayerController2D : MonoBehaviour
             Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
         }
     }
+
+    public void Respawn()
+    {
+        rb.linearVelocity = Vector2.zero; // detener movimiento
+        transform.position = respawnPoint.position;
+    }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Princess"))
+    //    {
+    //        // Busca el PlayerController2D en el jugador
+    //        var player = collision.gameObject.GetComponent<PlayerController2D>();
+    //        if (player != null)
+    //        {
+    //            player.Respawn();
+    //        }
+    //    }
+    //}
+
+
+
 }
